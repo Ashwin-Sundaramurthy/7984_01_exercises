@@ -1,5 +1,8 @@
 # import pandas, numpy
 # Create the required data frames by reading in the files
+df=pd.read_excel('SaleData.xlsx')
+df_3=pd.read_csv('diamonds.csv')
+df_2=pd.read_csv("imdb.csv",escapechar='\\')
 
 # Q1 Find least sales amount for each item
 # has been solved as an example
